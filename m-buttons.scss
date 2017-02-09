@@ -1,0 +1,41 @@
+/*
+Author: Max McKinney
+Version: 1.0.0
+*/
+
+// Variables \\
+
+$m-animation-time: 0.2;
+$m-text-color: #1e1e1e;
+$m-button-color: #ffc107;
+
+$m-text-size: 14px;
+
+///////////////
+
+.m-button {
+    display: inline-block;
+    padding: 10px 50px;
+    color: $m-button-color;
+    border:  1px solid $m-button-color;
+    text-decoration: none;
+    font-size: $m-text-size;
+
+    &:hover {
+        background-color: $m-button-color;
+        color: $text-color !important;
+        text-decoration: none;
+    }
+}
+
+.m-round {
+    border-radius: 100%;
+}
+
+.m-large {
+    font-size: 18px;
+}
+
+.m-wide {
+    padding: 10px 80px;
+}
