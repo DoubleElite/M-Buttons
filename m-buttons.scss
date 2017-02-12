@@ -8,8 +8,10 @@ Version: 1.0.0
 $m-animation-time: 0.2;
 $m-text-color: #1e1e1e;
 $m-button-color: #ffc107;
+$m-button-color-positive: #90C56B;
+$m-button-color-negative: #d86565;
 
-$m-text-size: 14px;
+$m-base-size: 14px;
 
 ///////////////
 
@@ -19,9 +21,9 @@ $m-text-size: 14px;
     color: $m-button-color;
     border:  1px solid $m-button-color;
     text-decoration: none;
-    font-size: $m-text-size;
+    font-size: $m-base-size;
 
-    &:hover {
+    &:hover, &:active, &:focus {
         background-color: $m-button-color;
         color: $m-text-color !important;
         text-decoration: none;
@@ -29,13 +31,38 @@ $m-text-size: 14px;
 }
 
 .m-round {
-    border-radius: 100%;
+    border-radius: 11px;
 }
 
 .m-large {
-    font-size: 18px;
+    font-size: $m-base-size + 3;
 }
 
 .m-wide {
     padding: 10px 80px;
+}
+
+.m-inline {
+    padding: 2px 11px;
+    font-size: $m-base-size - 1;
+}
+
+.m-positive {
+    color: $m-button-color-positive;
+    border-color: $m-button-color-positive;
+
+    &:hover, &:active, &:focus {
+        background-color: $m-button-color-positive;
+    }
+
+}
+
+.m-negative {
+    color: $m-button-color-negative;
+    border-color: $m-button-color-negative;
+
+    &:hover, &:active, &:focus {
+        background-color: $m-button-color-negative;
+    }
+
 }
