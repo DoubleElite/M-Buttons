@@ -14,6 +14,9 @@ Version: 1.0.0
     color: #1e1e1e !important;
     text-decoration: none; }
 
+.m-center {
+  margin: 0 auto; }
+
 .m-round {
   border-radius: 11px; }
 
