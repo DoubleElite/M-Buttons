@@ -36,6 +36,13 @@ Version: 1.0.0
   .m-positive:hover, .m-positive:active, .m-positive:focus {
     background-color: #90C56B; }
 
+.m-inverse {
+  border-color: #1e1e1e;
+  color: #1e1e1e; }
+  .m-inverse:hover, .m-inverse:active, .m-inverse:focus {
+    color: #ffc107;
+    background-color: #1e1e1e; }
+
 .m-negative {
   color: #d86565;
   border-color: #d86565; }

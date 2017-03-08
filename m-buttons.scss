@@ -62,6 +62,16 @@ $m-base-size: 14px;
 
 }
 
+.m-inverse {
+    border-color: $m-text-color;
+    color: $m-text-color;
+    
+    &:hover, &:active, &:focus {
+        color: $m-button-color;
+        background-color: $m-text-color;
+    }
+}
+
 .m-negative {
     color: $m-button-color-negative;
     border-color: $m-button-color-negative;

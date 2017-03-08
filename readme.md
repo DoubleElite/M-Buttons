@@ -33,3 +33,4 @@ M-Buttons is designed around the idea of modular classes. After applying the bas
 | m-negative | Sets the color of the button to be a negative color |
 | m-inline   | Decreases the size to be used in inline cases       |
 | m-center   | Centers the button using margin: 0 auto    |
+| m-inverse | Inverse the colors used (does not work on m-positive or m-negative) |
