@@ -65,9 +65,8 @@ $m-base-size: 14px;
 .m-inverse {
     border-color: $m-text-color;
     color: $m-text-color;
-    
     &:hover, &:active, &:focus {
-        color: $m-button-color;
+        color: $m-button-color !important;
         background-color: $m-text-color;
     }
 }

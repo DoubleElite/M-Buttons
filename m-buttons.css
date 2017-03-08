@@ -40,7 +40,7 @@ Version: 1.0.0
   border-color: #1e1e1e;
   color: #1e1e1e; }
   .m-inverse:hover, .m-inverse:active, .m-inverse:focus {
-    color: #ffc107;
+    color: #ffc107 !important;
     background-color: #1e1e1e; }
 
 .m-negative {
