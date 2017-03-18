@@ -80,3 +80,25 @@ $m-base-size: 14px;
     }
 
 }
+
+.m-black {
+    color: black;
+    border-color: black;
+
+    &:hover, &:active, &:focus {
+        background-color: black;
+        color: white;
+    }
+
+}
+
+.m-white {
+    color: white;
+    border-color: white;
+
+    &:hover, &:active, &:focus {
+        background-color: white;
+        color: black;
+    }
+
+}

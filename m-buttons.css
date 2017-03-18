@@ -49,4 +49,18 @@ Version: 1.0.0
   .m-negative:hover, .m-negative:active, .m-negative:focus {
     background-color: #d86565; }
 
+.m-black {
+  color: black;
+  border-color: black; }
+  .m-black:hover, .m-black:active, .m-black:focus {
+    background-color: black;
+    color: white; }
+
+.m-white {
+  color: white;
+  border-color: white; }
+  .m-white:hover, .m-white:active, .m-white:focus {
+    background-color: white;
+    color: black; }
+
 /*# sourceMappingURL=m-buttons.css.map */

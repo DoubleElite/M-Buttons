@@ -1,5 +1,7 @@
 # M-Buttons
 
+![M-Button Logo](http://maxmckinney.com/wp-content/uploads/2017/03/Max-McKinney-blog-post-thumbnail-M-Buttons.jpg)
+
 M-Buttons is a CSS3 SASS button library designed around modular classes and ease-of-use.
 
 ## Install
@@ -34,3 +36,5 @@ M-Buttons is designed around the idea of modular classes. After applying the bas
 | m-inline   | Decreases the size to be used in inline cases       |
 | m-center   | Centers the button using margin: 0 auto    |
 | m-inverse | Inverse the colors used (does not work on m-positive or m-negative) |
+| m-white   | Override the base color scheme to be black    |
+| m-black | Override the base color scheme to be white  |
