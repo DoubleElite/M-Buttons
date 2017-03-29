@@ -57,7 +57,7 @@ $m-base-size: 14px;
     border-color: $m-button-color-positive;
 
     &:hover, &:active, &:focus {
-        color:$m-text-color;
+        color:white;
         background-color: $m-button-color-positive;
     }
 
@@ -77,7 +77,7 @@ $m-base-size: 14px;
     border-color: $m-button-color-negative;
 
     &:hover, &:active, &:focus {
-        color: $m-text-color;
+        color: white;
         background-color: $m-button-color-negative;
     }
 
