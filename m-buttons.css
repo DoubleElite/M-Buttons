@@ -34,7 +34,7 @@ Version: 1.0.0
   color: #90C56B;
   border-color: #90C56B; }
   .m-positive:hover, .m-positive:active, .m-positive:focus {
-    color: white;
+    color: white !important;
     background-color: #90C56B; }
 
 .m-inverse {
@@ -48,7 +48,7 @@ Version: 1.0.0
   color: #d86565;
   border-color: #d86565; }
   .m-negative:hover, .m-negative:active, .m-negative:focus {
-    color: white;
+    color: white !important;
     background-color: #d86565; }
 
 .m-black {
