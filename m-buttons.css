@@ -8,7 +8,7 @@ Version: 1.0.0
   color: #ffc107;
   border: 1px solid #ffc107;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.7rem; }
   .m-button:hover, .m-button:active, .m-button:focus {
     background-color: #ffc107;
     color: #1e1e1e !important;
@@ -21,14 +21,14 @@ Version: 1.0.0
   border-radius: 11px; }
 
 .m-large {
-  font-size: 17px; }
+  font-size: 1.1rem; }
 
 .m-wide {
   padding: 10px 80px; }
 
 .m-inline {
   padding: 2px 11px;
-  font-size: 13px; }
+  font-size: 0.6rem; }
 
 .m-positive {
   color: #90C56B;

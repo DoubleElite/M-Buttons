@@ -11,7 +11,7 @@ $m-button-color: #ffc107;
 $m-button-color-positive: #90C56B;
 $m-button-color-negative: #d86565;
 
-$m-base-size: 14px;
+$m-base-size: 0.7rem;
 
 ///////////////
 
@@ -40,7 +40,7 @@ $m-base-size: 14px;
 }
 
 .m-large {
-    font-size: $m-base-size + 3;
+    font-size: $m-base-size + 0.4;
 }
 
 .m-wide {
@@ -49,7 +49,7 @@ $m-base-size: 14px;
 
 .m-inline {
     padding: 2px 11px;
-    font-size: $m-base-size - 1;
+    font-size: $m-base-size - 0.1;
 }
 
 .m-positive {
