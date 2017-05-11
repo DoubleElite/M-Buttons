@@ -22,6 +22,7 @@ $m-base-size: 0.7rem;
     border:  1px solid $m-button-color;
     text-decoration: none;
     font-size: $m-base-size;
+	text-align: center;
 
     &:hover, &:active, &:focus {
         background-color: $m-button-color;

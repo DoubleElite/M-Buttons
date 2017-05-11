@@ -8,7 +8,8 @@ Version: 1.0.0
   color: #ffc107;
   border: 1px solid #ffc107;
   text-decoration: none;
-  font-size: 0.7rem; }
+  font-size: 0.7rem;
+  text-align: center; }
   .m-button:hover, .m-button:active, .m-button:focus {
     background-color: #ffc107;
     color: #1e1e1e !important;
